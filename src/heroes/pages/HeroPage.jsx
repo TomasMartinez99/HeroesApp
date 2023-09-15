@@ -13,7 +13,8 @@ export const HeroPage = () => {
     return navigate(-1)
   }
 
-  const heroImageUrl = `./assets/heroes/${heroId}.jpg`;
+  /* const heroImageUrl = `/heroes/${ heroId }.jpg`  // en modo desarrollo */
+  const heroImageUrl = `./heroes/${ heroId }.jpg`; // usando github pages
 
   if ( !hero ) {
     return <Navigate to='/marvel' />
