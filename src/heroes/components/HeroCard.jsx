@@ -17,7 +17,7 @@ export const HeroCard = ({
     characters,
 }) => {
 
-    const heroImageUrl = `https://tomasmartinez99.github.io/HeroesApp/heroes/${ id }.jpg`; // en producción
+    const heroImageUrl = `./heroes/${ id }.jpg`; // en producción
     /* const heroImageUrl = `./assets/heroes/${ id }.jpg`  // en modo desarrollo */
 
   return (
