@@ -14,7 +14,7 @@ export const HeroPage = () => {
   }
 
   /* const heroImageUrl = `./public/assets/heroes/${ heroId }.jpg`  // en modo desarrollo */
-  const heroImageUrl = `./heroes/${ heroId }.jpg`;  // en modo producción
+  const heroImageUrl = `./assets/heroes/${ heroId }.jpg`;  // en modo producción
 
   if ( !hero ) {
     return <Navigate to='/marvel' />
